@@ -88,3 +88,20 @@ void deleteLastMenu(ListMenu &L, adrMenu &p) {
         p = nullptr;
     }
 }
+
+void deleteAfterMenu(ListMenu &L, adrMenu prec, adrMenu &p){
+    // I.S. ListMenu L tidak kosong, prec adalah elemen sebelum elemen yang dihapus
+    // F.S. Elemen setelah prec dihapus dan disimpan di p
+
+}
+
+adrMenu findMenu(ListMenu L, string kodeMenu){
+    // I.S. Terdefinisi ListMenu L, dan string kodeMenu
+    // F.S. Mengembalikan alamat node menu jika ditemukan, nullptr jika tidak ditemukan
+
+}
+
+void showAllMenu(ListMenu L){
+    // I.S. Terdefinisi ListMenu L
+    // F.S. Menampilkan seluruh data menu ke layar
+}
